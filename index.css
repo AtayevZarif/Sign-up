@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input{
+    height: 50px;
+    width: 200px;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+.input:hover{
+    background-color: #e7e6e6;
+}
+
+.input:focus{
+    outline: 2px solid #d46300;
+}
+
+p{
+    display: none;
+    color: red;
+    text-align: center;
+}
+
+div{
+    position: relative;
+    width: 250px;
+}
+#visibility_checkbox{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+#submit{
+    height: 50px;
+    width: 250px;
+    background-color: #fc7121;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #e5661d;
+}
